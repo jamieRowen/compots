@@ -1,0 +1,33 @@
+body {
+  background-color: #5a5a92;
+  /* background-image: url("./desktop-background-1x.png") ; */
+  /* background-size: cover; */
+}
+
+.moon-img {
+  top: 0;
+  left: 0;
+  position: fixed;
+  min-width: 1400px;
+  min-height: 100%;
+  
+}
+
+.input-card {
+  width: 18rem;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.input-card > img {
+  background-color: #303050;
+  border-radius: 10px 10px 0px 0px;
+}
+
+@media screen and (max-width: 1400px) { /* Specific to this particular image */
+  .moon-img {
+    left: 50%;
+    margin-left: -700px;   /* 50% */
+  }
+}
